@@ -1,0 +1,10 @@
+name: Playwright MCP Server
+version: 0.0.1
+schema: 'https://opencode.ai/config.json'
+mcpServers:
+  - name: Playwright MCP Server
+    command: npx
+    args:
+      - -y
+      - '@playwright/mcp@latest'
+    env: {}
